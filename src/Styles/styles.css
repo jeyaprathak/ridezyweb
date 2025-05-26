@@ -1,0 +1,96 @@
+:root {
+  --primary-dark: #0a2e0a;
+  --primary-green: #1a5a1a;
+  --secondary-green: #2d7a2d;
+  --light-green: #4ca64c;
+  --black: #121212;
+  --dark-gray: #1e1e1e;
+  --light-gray: #f8f9fa;
+}
+
+body {
+  background-color: var(--black);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-primary {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-green);
+  border-color: var(--secondary-green);
+}
+
+.card {
+  background-color: var(--dark-gray);
+  border: 1px solid var(--primary-green);
+  color: white;
+}
+
+.form-control {
+  background-color: var(--dark-gray);
+  border: 1px solid var(--primary-green);
+  color: white;
+}
+
+.form-control:focus {
+  background-color: var(--dark-gray);
+  color: white;
+  border-color: var(--light-green);
+  box-shadow: 0 0 0 0.25rem rgba(44, 122, 44, 0.25);
+}
+
+.navbar {
+  background-color: var(--primary-dark) !important;
+  border-bottom: 1px solid var(--primary-green);
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: var(--light-green) !important;
+}
+
+.vehicle-card {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.vehicle-card.selected {
+  border: 2px solid var(--light-green);
+  background-color: rgba(76, 166, 76, 0.1);
+}
+
+.status-indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.status-pending {
+  background-color: #ffc107;
+}
+
+.status-accepted {
+  background-color: #17a2b8;
+}
+
+.status-completed {
+  background-color: #28a745;
+}
+
+.status-cancelled {
+  background-color: #dc3545;
+}

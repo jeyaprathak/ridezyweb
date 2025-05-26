@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #006400; 
+  --secondary-color: #000000; 
+  --accent-color: #32CD32; 
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --text-light: #f8f9fa;
+  --text-dark: #212529;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #004d00;
+  border-color: #004d00;
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.nav-link.active {
+  color: var(--accent-color) !important;
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid rgba(0, 100, 0, 0.125);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+  background-color: rgba(0, 100, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 100, 0, 0.125);
+}
