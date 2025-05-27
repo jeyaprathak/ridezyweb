@@ -20,13 +20,13 @@ import {
 
 const driver = {
   id: 1,
-  name: 'Ram Bharath',
+  name: 'AK',
   phone: '+919876543210',
   rating: 4.8,
   vehicle: {
     type: 'Bike',
     model: 'Bajaj Pulsar 150',
-    number: 'MH 01 AB 1234',
+    number: 'TN 60 J 2126',
   },
 };
 
